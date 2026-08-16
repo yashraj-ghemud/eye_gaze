@@ -1,5 +1,32 @@
-# eye_gaze
-> Gazer: a Python desktop app that uses a webcam and MediaPipe face landmarker to estimate gaze and control the system mouse via profile-based calibration and a regression model.
+<p align="center">
+  <img src="./.github/readme-assets/playground.gif" alt="Animated playground / experience visual for eye_gaze" width="100%" />
+</p>
+
+<h1 align="center">eye_gaze</h1>
+
+<p align="center"><strong>Gazer: a Python desktop app that uses a webcam and MediaPipe face landmarker to estimate gaze and control the system mouse via profile-based calibration and a regression model.</strong></p>
+
+<p align="center"><code>REPO//SIGNAL</code> · <code>PLAYGROUND / EXPERIENCE</code> · <code>LOOPING README EXPERIENCE</code></p>
+
+## Live signal
+
+| Lens | Readout |
+| --- | --- |
+| Portfolio lane | **PLAYGROUND / EXPERIENCE** |
+| Code surface | **32** tracked files observed |
+| Primary materials | **Python, Markdown** |
+| Verification | **1** test-related files observed |
+
+> A kinetic frame for interaction, play, and visual craft. The animated frame above is a lightweight visual signature; the sections below remain the source of truth for implementation details.
+
+## Motion map
+
+`DISCOVER` → `INTERACT` → `ITERATE`
+
+Start with the experience surface, follow the main interaction loop, then iterate on feedback, accessibility, and performance. The README is designed as a quick visual entry point before the deeper project dossier.
+
+<details open>
+<summary><strong>Open the full project dossier</strong></summary>
 
 ## Overview
 A modular desktop application (Windows/Linux) that captures webcam frames, extracts a 25-dimensional facial feature vector (iris + face/pose cues), trains or loads a regression model (PyTorch with a scikit-learn fallback) to predict normalized screen coordinates, smooths predictions (One Euro filter), and drives the OS cursor with a physics-based "Magic Cursor". Supports calibration profiles, blink/dwell/mouth-open clickers, and a Qt-based UI.
@@ -130,3 +157,9 @@ If you want to audit configuration and manifests before executing anything, revi
 These files contain the primary observable configuration and behavior from the supplied snapshot.
 
 (There is no LICENSE file included in the supplied snapshot; no license statement is made here.)
+
+</details>
+
+---
+
+<p align="center"><sub>README motion system · visual layer by RepoSignal · implementation details remain project-specific</sub></p>
